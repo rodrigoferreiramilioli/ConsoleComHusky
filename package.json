@@ -1,0 +1,27 @@
+{
+  "name": "ConsoleHusky",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "dotnet tool restore",
+    "unit-test": "dotnet test VCF.Api.UnitTests /p:CollectCoverage=false",
+    "integ-test": "",
+    "arch-test": "",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rodrigoferreiramilioli/ConsoleComHusky.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^8.0.0",
+    "lint-staged": "^13.0.1"
+  },
+  "lint-staged": {
+    "*.cs": "dotnet dotnet-format --include"
+  }
+}

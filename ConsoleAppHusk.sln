@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleComHusky", "ConsoleComHusky\ConsoleComHusky.csproj", "{B21AFD4B-C617-42CB-AD29-1F376A4267CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUnit", "TestUnit\TestUnit.csproj", "{242887E4-895A-4A0A-B857-B3BCBE844890}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B21AFD4B-C617-42CB-AD29-1F376A4267CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B21AFD4B-C617-42CB-AD29-1F376A4267CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B21AFD4B-C617-42CB-AD29-1F376A4267CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{242887E4-895A-4A0A-B857-B3BCBE844890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{242887E4-895A-4A0A-B857-B3BCBE844890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{242887E4-895A-4A0A-B857-B3BCBE844890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{242887E4-895A-4A0A-B857-B3BCBE844890}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
