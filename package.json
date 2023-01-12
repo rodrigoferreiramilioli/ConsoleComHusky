@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "preinstall": "dotnet tool restore",
-    "unit-test": "dotnet test VCF.Api.UnitTests /p:CollectCoverage=false",
+    "unit-test": "dotnet test TestUnit /p:CollectCoverage=false",
     "integ-test": "",
     "arch-test": "",
     "prepare": "husky install"

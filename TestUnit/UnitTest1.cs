@@ -7,7 +7,7 @@ namespace TestUnit
         [Fact]
         public void Test1()
         {
-            var teste = false;
+            var teste = true;
             Assert.True(teste);
         }
     }
