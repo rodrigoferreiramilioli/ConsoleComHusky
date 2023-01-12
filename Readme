@@ -1,0 +1,2 @@
+Este cara tem a finalidade de mostrar como o husky é últil na análise de pré commit e push, 
+onde neste exemplo ele faz análises de código lint  no pré commit e de testes unitários no push
